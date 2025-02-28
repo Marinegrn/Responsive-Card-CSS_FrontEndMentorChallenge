@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* utilisation d'un @media, avec les 2 valeurs écran & mobile*/
+@media (max-width: 1440px), (min-width: 320px) {
+
+    body {
+        background-color: hsl(47, 88%, 63%);
+        font-size: 16px;
+    
+    }
+    
+    .container {
+        display: flex;             /* Utilisation de flexbox */
+        justify-content: center;   /* Centrer horizontalement */
+        align-items: center;       /* Centrer verticalement */
+        height: 100vh;             /*hauteur du viewport*/
+    }    
+
+}
+
+
+.card {
+    width: 435px;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    transition: 0.3s;
+    border-radius: 20px;
+    border-color:hsl(0, 0%, 7%);
+    border-style: solid;
+    border-width: medium;
+    box-shadow: 11px 10px 1px 1px rgba(0,0,0, 60);
+    text-align: left;
+}
+
+.card_content {
+    padding: 2px 16px;
+    font-family: 'Figtree';
+    justify-content: center;
+}
+
+.card_User {
+    display: flex;
+    line-height: 2%; /*permet de centrer le texte au centre de la div, propriété raccoucie de row et colomn; permet de définir les espaces */
+    font-weight:lighter;
+    justify-content: left;
+    gap: 3%;
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#learning_style {
+    border: 0;
+  line-height: 2;
+  padding: 0 17px;
+  margin-right: 75%;
+  text-align: left;
+  color: #fff;
+  border-radius: 5px;
+  background-color: hsl(47, 88%, 63%);
+}
+
+
+img {
+    border-radius: 8%;
+}
+
+h1 {
+    color: black;
+    font-weight: 4000;
+}
+
+h2 {
+    color: hsl(0, 0%, 7%);
+    font-size: medium;
+}
+
+h3 {
+    color: hsl(0, 0%, 42%);
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 800;
+}
+
+p {
+    font-size: 16px;
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
